@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: Phone Service Dashboards
+    orgId: 1
+    folder: Phone Service
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
